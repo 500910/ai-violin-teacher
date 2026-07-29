@@ -1,0 +1,18 @@
+# 1. 进入项目目录
+cd ai-violin-teacher
+
+# 2. 初始化 Git
+git init
+
+# 3. 添加所有文件
+git add .
+
+# 4. 提交
+git commit -m "Initial commit: AI Violin Teacher app"
+
+# 5. 关联远程仓库（把下面的 URL 换成你实际的）
+git remote add origin https://github.com/你的用户名/ai-violin-teacher.git
+
+# 6. 推送到 main 分支
+git branch -M main
+git push -u origin main
